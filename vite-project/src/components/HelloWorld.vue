@@ -5,14 +5,6 @@ defineProps<{ msg: string }>()
 
 const count = ref(0)
 
-let obj = {
-  'aa': ['1'] 
-}
-
-var a = obj['aa'] || []
-var b = obj['aa'] = obj['aa'] || []
-console.log(a, b,'00000');
-
 </script>
 
 <template>
